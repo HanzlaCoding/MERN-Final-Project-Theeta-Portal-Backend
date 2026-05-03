@@ -20,7 +20,7 @@ app.use(morgan('dev'));
 
 // Enable CORS so the frontend can communicate with this backend
 app.use(cors({
-  origin: 'http://localhost:5173', // Your frontend URL
+  origin: 'https://theeta-lms-backend.onrender.com/*', // Your frontend URL
   credentials: true // Allow cookies to be sent back and forth
 }));
 
