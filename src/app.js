@@ -20,7 +20,7 @@ app.use(morgan('dev'));
 
 // Enable CORS so the frontend can communicate with this backend
 app.use(cors({
-  origin: 'https://theeta-lms.vercel.app/*', // Your frontend URL
+  origin: 'https://theeta-lms.vercel.app', // Your frontend URL
   credentials: true // Allow cookies to be sent back and forth
 }));
 
